@@ -476,13 +476,15 @@ color: blue;
         margin-top: 10px;
         margin-bottom: 0px;
         /* padding-left: 90px; */
-        position: relative;
+        /* position: relative;
         padding-bottom: 10px;
-        padding-left: 15px;
+        padding-left: 15px; */
+        float: right;
+        top: -100;
      }
     
      .projects:hover{
-         color: blue;
+         color: white;
      }
     
      #projects {
