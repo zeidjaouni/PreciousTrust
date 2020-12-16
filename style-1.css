@@ -41,10 +41,10 @@ body{
 h1{
     color: black;
     Font-size: 60pt; 
-    text-align: left; 
+    /* text-align: center;  */
     font-family: 'Anton', sans-serif;
    margin-top: 20px;
-   padding-left: 115px;
+   /* padding-left: 115px; */
    margin-bottom: 0px;
     position: relative; 
     text-decoration:none; 
@@ -103,8 +103,13 @@ h5:hover{
 color: blue;
 }
 
-.wave{
-    width:1500px;
+.introimage{
+    width:1450px;
+    top: -130px;
+    padding: 0px;
+    z-index: -1;
+    position: absolute;
+    left: -5px;
 }
 
 .portrait{
@@ -131,18 +136,29 @@ color: blue;
     color: black;
     Font-size: 20pt; 
     font-weight: normal;
-    text-align: center;
+    /* text-align: center;  */
     font-family: 'Anton', sans-serif;
-    margin-top: 30px;
+   margin-top: 20px;
+   padding-left: 115px;
+   margin-bottom: 0px;
+    position: relative; 
+    text-decoration:none; 
+    /* text-align: center; */
+    font-family: 'Anton', sans-serif;
+    /* margin-top: 30px;
     margin-bottom: 40px;
     padding-left: 115px;
     position: relative;
     display: inline-block;
-    padding-bottom: 50px;
+    padding-bottom: 50px; */
+    float: right;
+    top: -100px;
+    
+
  }
 
  .projects:hover{
-     color: blue;
+     color: white;
  }
 
  .RECprojects {
